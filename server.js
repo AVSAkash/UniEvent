@@ -40,6 +40,9 @@ const writeJSON = (filename, data) => {
 
 const getUsers = () => readJSON("user.json");
 const getEvents = () => readJSON("events.json");
+const getRegistrations = () => readJSON("registrations.json");
+const writeRegistrations = (data) => writeJSON("registrations.json", data);
+
 
 // Routes
 
